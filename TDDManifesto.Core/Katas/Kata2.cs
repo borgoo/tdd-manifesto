@@ -2,9 +2,9 @@ using System.ComponentModel.DataAnnotations;
 
 namespace TDDManifesto.Core.Katas;
 
-public static class Kata2
+internal static class Kata2
 {
-    public static readonly int Error = 0;
+    internal static readonly int Error = 0;
     private const string _delimiter = ",";
     private const string _otherDelimiter = @"\n";
     private const string _customDelimiterPrefix = "//";

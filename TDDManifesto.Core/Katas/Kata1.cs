@@ -2,12 +2,12 @@ using System.Text;
 
 namespace TDDManifesto.Core.Katas;
 
-public static class Kata1
+internal static class Kata1
 {
-    public static class FizzBuzzResult {
-        public const string Fizz = "Fizz";
-        public const string Buzz = "Buzz";
-        public const string FizzBuzz = "FizzBuzz";
+    internal static class FizzBuzzResult {
+        internal const string Fizz = "Fizz";
+        internal const string Buzz = "Buzz";
+        internal const string FizzBuzz = "FizzBuzz";
     }
 
     private static string IsMultipleOf3(int n)
@@ -19,7 +19,7 @@ public static class Kata1
         return n % 5 == 0 ? FizzBuzzResult.Buzz : string.Empty;
     }
 
-    public static string FizzBuzz(int n)
+    internal static string FizzBuzz(int n)
     {
         StringBuilder sb = new();
         sb.Append(IsMultipleOf3(n));
