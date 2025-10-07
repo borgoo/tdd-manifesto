@@ -1,6 +1,6 @@
 using System.Text;
 
-namespace TDDManifesto.Core.Katas;
+namespace TDDManifesto.Core.Katas.Kata1;
 
 internal static class Kata1
 {
